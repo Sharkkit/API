@@ -28,4 +28,6 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
         name: API Build
-        path: bin\Release\SharkkitAPI.*
+        path: |
+          bin\Release\SharkkitAPI.dll
+          bin\Release\SharkkitAPI.pdb
